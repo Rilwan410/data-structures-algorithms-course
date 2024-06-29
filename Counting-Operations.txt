@@ -1,0 +1,14 @@
+If We don't measure code performance by time, then what should it be measured by?
+
+    - Rather than counting seconds, which are so variable, lets rather count the number of simple operations the computer has to perform, because that remains constant no matter what computer you're working on.
+
+
+COUNTING OPERATIONS
+
+function addUpTo(n) {
+
+    return n * (n + 1) / 2
+
+}
+
+This function has 3 simple  operations: multiplication(*), addition(+), and division(/)

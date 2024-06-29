@@ -1,0 +1,46 @@
+
+ - Suppose you want to write a function that calculuates the sum of all numbers from 1 up to (and including) some number n. [ ex: n=3; ( 1+2+3 = 6 ) ]
+ 
+
+ A possible solution may look something like this:
+
+---------------------------------------------------------
+
+     function addUpTo(n){
+        
+        let total = 0
+
+        for (let i = 0; i <= n; i++){
+            total += i;
+        }
+
+        return total;
+    }
+---------------------------------------------------------
+
+
+
+ - Next, There's a second solution:
+
+---------------------------------------------------------
+
+     function addUpTo(n){
+
+        return n * (n + 1) / 2;
+
+
+    }
+---------------------------------------------------------
+
+- This one is a little less intuitive but, you still come to the same result.
+
+
+
+
+The problem with using time as a metric when measuring code :
+
+    . Different machines will record different times
+    . The SAME machine will record different times
+    . For extremely fast algorithms, speed measurements may not be precise enough
+
+    

@@ -1,0 +1,10 @@
+When determining the time complexity of an algorithm, there are some helpful rules of thumb for big o expression
+
+    - Constants don't matter
+        . if you have an operation that comes out to O(2n) you can simplify it to O(n)
+        . if you have an operations that comes out to O(500) you can simplify it to O(1)
+        . if you have an operations that comes out to O(13n^2) you can simplify it to O(n^2)
+
+        O(n + 10) == O(n)
+        O(100n + 50) == O(n)
+        O(n^2 + 5n + 8)

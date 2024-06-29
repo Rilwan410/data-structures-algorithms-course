@@ -1,0 +1,15 @@
+
+
+
+- Big O is just a way to formalize fuzzy counting. It allows us to talk formally about how the runtime of an algorithm grows as the input grows. We don't care about the details, only the the overall trend 
+
+
+- We say that an algorithm O(f(n)) if the number of simple operations the computer has to do is eventually less than a constant times f(n), as n increases
+
+    . f(n) could be linear (f(n) = n)
+    . f(n) could be quadratic (f(n) = n^2)
+    . f(n) could be constant (f(n) = 1)
+    . f(n) could be something entirely different!
+
+
+- an O(n) operation inside of another O(n) operation is O(n^2)

@@ -1,0 +1,21 @@
+
+OBJECTIVES -
+    . Motivate the need for something like Big O Notation
+    . Describe what Big O Notation is
+    . Simplify Big O Expressions
+    . Define "time complexity" and "space complexity"
+    . Evaluate the time complexity and space complexity of different algorithms using Big O Notation
+    . Describe what a logarithm is
+
+
+WHATS THE IDEA HERE? -
+    - Imagine we have mutliple implementations of the same function, each comes to the same solution but in different ways using different methods. How can we determine which one is "best"? That's really what Big O is about --  It's a system/way of generalizing code and comparing code and it's performance to other pieces of code.  
+
+    - The same way the richter scale measures earthquakes on a spectrum which gives context to an earthquake, is the same way Big O represents the performance of a algorithm.
+
+    Who Cares? -    
+        - It's important to have a precise vocabularly to talk about how our code performs 
+        - Important when decussing trade-offs between different approaches 
+        - When your code slows down or crashes, it identifying parts of your code that are inefficient can help us find pain points in our application.
+        - Less Important: It comes up in interviews!
+

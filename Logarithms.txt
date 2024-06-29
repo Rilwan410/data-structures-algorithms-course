@@ -1,0 +1,5 @@
+- We've encountered some of the most common complexities: O(1), O(n), O(n^2)
+
+- But sometimes big o expressions involve more complex mathematical expressions
+
+- One that comes up more than you might like are logarithms 
