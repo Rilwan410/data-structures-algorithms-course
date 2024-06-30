@@ -1,0 +1,10 @@
+Solve/Simplify
+
+    - Solve the Problem if you can... but if you can't... Solve A Simpler Problem!
+
+    - In an interview setting, you want to have something to show for yourself, so instead of getting stuck on one difficult part of a problem and showing zero progress at all because you're putting all of your eggs in one basket of being able to solve it 100% before you're able to star writing code, that can look bad. It's much better even if you know there's some part you're going to get stuck on, it better to start writing code to do the stuff you already know how to do, all the while knowing you need to go back and incorporate the hard part. And usually along the way you will gain insight on how to solve the harder problem once you simplify and solve the easier steps.
+
+    - Find the core difficulty in what you're trying to do
+    - Temporarily ignore that difficulty 
+    - Write a simplified solution
+    - Then incorporate that difficulty back in 

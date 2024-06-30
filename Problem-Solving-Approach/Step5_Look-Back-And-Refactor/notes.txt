@@ -1,0 +1,22 @@
+Look Back And Refactor  
+    
+
+    Refactoring Questions
+        . Can you check the result?
+
+        . Can you derive the result differently?
+
+        . Can you understand it at a glance? 
+            -how intuitive is you solution?
+
+        . Can you use the result or method for some other problem?
+            - Any similarities between the problem you're solving and other problems you've solved
+            
+        . Can you improve the performance of you solution?
+            - How can you make it perform better? (time complexity space complexity)
+
+        . Can you think of other ways to refactor?
+            - If you're working for a company , does it following company guidelines? language standards?
+
+        . How have other people solved this problem?
+        

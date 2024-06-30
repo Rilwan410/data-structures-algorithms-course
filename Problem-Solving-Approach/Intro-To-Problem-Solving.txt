@@ -1,0 +1,27 @@
+Objectives
+
+    - Define what an algorithm is
+    - Devise a plan to solve algorithms
+    - Compare and contrast problem solving patters including frequency counters, two, pointer, problems and divide and conquer
+
+
+
+What is an algorithm?   
+
+    - An algorithm is, in its core definition, a process of a set of steps to accomplish a certain task
+    - Almost everything that you do in programming involves some kind of algorithm
+    - Algorithms are the foundation for being a successful problem solver and developer..
+
+
+How do you improve at writing algorithms?
+
+    - Devise a plan for solving problems
+    - Master common problem solving patterns
+
+
+Problem Solving Patterns
+    . Understand the Problem
+    . Explore Concrete Examples
+    . Break It Down
+    . Solve/Simplify the Problem
+    . Look Back and Refactor
