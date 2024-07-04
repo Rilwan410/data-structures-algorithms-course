@@ -1,0 +1,11 @@
+Divide And Conquer
+
+    - This pattern involves dividing a data set into smaller chunks 
+    and then repeating a process with a subset of data
+
+    - This process can tremendously decrease time complexity
+
+
+    .Introduction
+
+        - Typically with the Divide and Conquer approach, what we do is we take a larger set of data (usually an array, a string, or linked list), and rather than starting from the left and moving to the right, we start by dividing it into smaller pieces, and doing something to each smaller piece to determine where to go next. So essentially we divide a larger chunk of data into smaller chunks. And this, depending on the problem can be a significant helper (but not always).

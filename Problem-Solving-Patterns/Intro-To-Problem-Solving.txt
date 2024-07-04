@@ -1,0 +1,14 @@
+How Do You Improve?
+    - Devise a plan 
+    - Master Common problem solving patterns
+
+
+
+Some Common Patterns
+    - Frequency Counter
+    - Multiple Pointers
+    - Sliding Window
+    - Divide And Conquer
+    - Dynamic Programming
+    - Greedy Algorithm
+    - Backtracking
