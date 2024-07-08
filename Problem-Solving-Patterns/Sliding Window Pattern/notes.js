@@ -30,8 +30,11 @@ function maxSubarraySum(arr, num) {
 
 function maxSubarraySumRefactor() {
   let maxSum = 0;
+
   let tempSum = 0;
+  
   if (arr.length < num) return null;
+
   for (let i = 0; i < num; i++) {
     maxSum += arr[i];
   }

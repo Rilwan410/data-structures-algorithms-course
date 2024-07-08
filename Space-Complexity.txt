@@ -1,6 +1,6 @@
 - So far we have been focusing on time complexity: how we can analyze the runtime of an algorithm as the size of the inputs increases. Now let's talk about the space.
 
-- We can also use Big O Notation  to analyze the space complexity: how much additional memory do we need to alocate in order to run the code in our algorithm 
+- We can also use Big O Notation  to analyze the space complexity: how much additional memory do we need to allocate in order to run the code in our algorithm 
 
 - SPACE COMPLEXITY RULES OF THUMB 
     . Most primitives( booleans, numbers, undefined, null) are constant space

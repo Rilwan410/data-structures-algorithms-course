@@ -1,0 +1,45 @@
+Recursion
+
+    .Objectives
+
+        - Define what recursion is and how it can be used
+
+        - Understand the two essential components of a recursive function
+
+        - Visualize the call stack to better debug and understand recursive functions
+
+        - Use helper method recursion and pure recursion to solve more difficult problems
+
+
+
+    .What is Recursion?
+
+        - A process (or a function in our case) that calls itself
+
+
+    .Recursion is Everywhere
+
+        - JSON.parse / JSON.stringify
+        - document.getElementById and DOM traversal algorithms
+        - Object traversal
+        - We will see it with more complex data structures
+        - It's sometimes a cleaner alternative to iteration
+
+
+    . How recursive functions work
+        - Invoke the same function with a different input until you reach your base case
+        
+    .Base Case
+        - The condition when the recursion ends
+        - This is the most important concept to understand
+
+
+    .Two essential parts of a recursive function:
+        - Base Case
+        - Different Input
+
+
+    .Where things go wrong
+        - Not having a base case
+        - Forgetting to return or returning the wrong things
+        - Stack overflow (call stack exceeded)

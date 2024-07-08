@@ -1,6 +1,6 @@
 //  Example //
 
-// Write a function called sumZero which accepts a sort array of integers. The function should find the first pair where the sum is o. Return an array that includes both values that sum to zero or undefined if a pair does not exist
+// Write a function called sumZero which accepts a sorted array of integers. The function should find the first pair where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist
 
 // sumZero([-3,-2,-1,0,1,2,3]) // [-3,3]
 // sumZero([-2,0,1,3]) // undefined
@@ -18,13 +18,13 @@ function sumZero(arr) {
   }
 }
 
-// Refactored Solution (Time Complexity - O(N) / Space Complexity - (1) //
+// Refactored Solution (Time Complexity - O(N) / Space Complexity - O(1) //
 
 function sumZeroRefactor(arr) {
   let left = 0; /* starts on the left side */
   let right = arr.length - 1; /* starts on the right side */
 
-  while (left < right) /* while the the left side is going incrementing up */ {
+  while (left < right) /* while the the left side is incrementing up */ {
 
     let sum = arr[left] + arr[right] /* add numbers on the opposite sides */;
 
