@@ -1,0 +1,7 @@
+Linear Search Big O Performance
+    Time Complexity:
+        - Best case scenario (if the first item is the item that you're looking for) : O(1)
+
+        Average (general trend): O(n)
+        
+        - Worst case scenario (if the last item is the item you looking for): O(n)
