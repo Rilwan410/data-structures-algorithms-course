@@ -21,8 +21,9 @@ Objective
 
 JavaScript has a sort method
     - Telling JavaScript how to sort 
+    
         . The built-in sort method accepts an optional comparator function
-        
+
         . You can use this comparator function to tell JavaScript how you want it to sort
 
         . The comparator looks at pairs of elements (a and b), determines their sort order based on the return value:
