@@ -3,10 +3,11 @@ Linear Search
 
 
 
-
-
 How Do We Search ?
-    .Given an array, the simplest way to search for a value is to look at every element in the array and check if it's the value we want
+    - Given an array, the simplest way to search for a value is to look at every element 
+    in the array and check if it's the value we want
+
+
 
 JavaScript has search   
     - There are many different search methods on arrays in JavaScript:
@@ -18,3 +19,19 @@ JavaScript has search
 
 
 
+Big O of Sorting Algorithms:
+------------------------------------------------------------------------------------------ 
+
+    Algorithm       Time Complexity    Time Complexity    Time Complexity    Space 
+                    (Best Case)        (Average)          (Worst Case)       Complexity  
+------------------------------------------------------------------------------------------                    
+   Bubble Sort         O(n)              O(n^2)             O(n^2)             O(1)
+   Insertion Sort      O(n)              O(n^2)             O(n^2)             O(1)
+   Selection Sort      O(n)              O(n^2)             O(n^2)             O(1)
+
+
+
+Recap:
+    - Sorting is fundamental!
+    - Bubble sort, selection, and insertion sort are all roughly equivalent
+    - We can do better. but we need more complex algorithms!
