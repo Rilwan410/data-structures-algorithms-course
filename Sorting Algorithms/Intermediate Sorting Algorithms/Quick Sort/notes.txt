@@ -1,0 +1,23 @@
+Quick Sort
+    - Like merge sort, exploits the fact that arrays of 0 or 1 elements are always sorted
+    - Works by selecting one element (called the 'pivot') and finding the index where the pivot should end up in the sorted array
+    - Once the pivot is positioned appropriately, quick sort can be applied on either side of the pivot
+
+
+Picking a pivot
+    - The runtime of quick sort depends in part on how one selects the pivot
+
+    - Ideally, the pivot should be chosen so that it's roughly the median value in the data set you're sorting
+
+    - FOr simplicity, we'll always choose the pivot to be the first element (we'll talk about consequences of this later)
+
+
+
+Big O of Quick Sort:
+
+Time                Time                Time                Space 
+Complexity          Complexity          Complexity          Complexity
+(Best Case)         (Average Case)      (Worst Case)             
+===========================================================================
+O(n log n)          O(n log n)          O(n^2)          O(log n)
+
