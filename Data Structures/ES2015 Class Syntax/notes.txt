@@ -1,0 +1,69 @@
+Objectives
+    - Explain what a class is
+    - Understand how JavaScript implements the idea of classes
+    - Define terms like abstraction, encapsulation, polymorphism
+    - Use ES2015 classes to implement data structures
+
+
+
+What is a class
+    - A blueprint for creating objects with pre-defined properties and methods
+    
+
+Why do we need to learn this?
+    - We're going to implement data structures as classes
+
+
+.The Syntax
+------------------------------------------------------|
+        class Student{                                |
+            constructor(firstName, lastName){         |
+                this.firstName = firstName;           |
+                this.lastName = lastName              |
+            }                                         |
+        }                                             |
+------------------------------------------------------|
+    - The method to create new objects must be called 
+    constructor
+
+    - the class keyword creates a constant, so you 
+    cannot redefine it. Watch out for the syntax as well!
+
+
+
+
+.Creating Objects from classes (We use new keyword)
+|--------------------------------------------------------------------|
+|        class Student{                                              |   
+|            constructor(firstName, lastName){                       |
+|                this.firstName = firstName;                         |
+|                this.lastName = lastName                            |
+|            }                                                       |
+|        }                                                           |
+|                                                                    |
+|    let firstStudent = new Student("James", "Brown")                |
+|    let secondStudent = new Student("Stevie", "Wonder")             |
+|                                                                    |
+|--------------------------------------------------------------------|
+
+
+
+
+
+. How we'll be using classes:
+--------------------------------------------------------------------------------|
+                                                                                |
+class DataStructure{                                                            |   
+    constructor(){                                                              |
+            // what default properties should it have?                          |
+    }                                                                           |
+                                                                                |
+    someInstanceMethod(){                                                       |
+            // What should each object created from this class be able to do?   |    
+    }                                                                           |
+                                                                                |
+}                                                                               |
+--------------------------------------------------------------------------------|
+
+- We will be using the constructor and instance methods quite bit!
+- We will almost never be using static methods

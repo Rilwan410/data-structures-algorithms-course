@@ -1,0 +1,57 @@
+Data Structures
+
+    Some Data Structures include:
+        .Binary Search Trees
+        .Queues
+        .Singly Linked lists
+        .Undirected Unweighted Graphs
+        .Binary Heaps
+        .Directed Graphs
+        .Hash Tables
+        .Doubly Linked lists
+        .Stacks
+
+
+    What Do They Do?
+        - Data Structures are collections of values, the relationships among them, and the functions or operations that can be applied to the data
+        - All Data structures essentially do the same thing -- Which is Store Data -- However their behavior, the relationships between the data, their functionality, and the methods you get to act upon them are all very different
+
+
+    Why Are There So Many Data Structures?
+        - Different data structures excel at different things. Some are highly specialized, while others (like arrays) are more generally used.
+
+
+
+    Why Care? 
+        - The more time you spend as a developer, the more likely you'll need to use one of these data structures.
+                . Usually there is a time in every developer's life when using an array for every single possible problem just doesn't cut it.
+
+                . You might need something more efficient
+
+                . You might need something to express a different relationship
+
+                . You might be working with more complicated data that isn't linear and you need another way of storing it
+                . Interviews!
+
+
+
+    You've probably worked with many different data structures unknowingly!
+            - Javascript DOM (tree)
+
+
+
+    There is no one "BEST" Data Structure
+        . They all excel in different situations
+        
+            - Working with map/location data?
+                . Use a graph!
+
+            - Need an ordered list with fast inserts/removals at the beginning and end?
+                . Use a linked list!
+
+            - Web scraping nested HTML?
+                . Use a tree
+
+            - Need to write a scheduler?
+                . Use a binary heap
+
