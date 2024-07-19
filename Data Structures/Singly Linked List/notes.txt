@@ -1,0 +1,29 @@
+What is a linked list?
+    - A data structure that contains a head, tail, and length property
+    - Linked list consists of nodes, and each node has a value and a pointer to another node or null
+    - The terminology "singly linked list" comes from the fact that each node is only connected one-directionally to the next node. A Doubly Linked list has another connection pointing back to the previous node.
+
+Head                 Length = 4                   Tail
+|---------------------------------------------------|
+|                                                   |
+|                                                   |
+|                                                   |
+4 ===>  next   6 ===>  next  8 ===>  next  2 ===> null
+
+
+
+
+Linked Lists VS. Arrays:
+
+    Lists
+        - Do not have indexes!
+        - Connected via nodes with a next pointer
+        - Random access is not allowed
+
+    Arrays
+        - Indexed in order!
+        - Insertion and deletion can be expensive
+        - Can quickly be accessed at a specific index
+
+
+Popping: Removing a node from the end of the Linked List!

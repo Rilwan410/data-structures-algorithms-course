@@ -45,7 +45,7 @@ Why do we need to learn this?
 |    let secondStudent = new Student("Stevie", "Wonder")             |
 |                                                                    |
 |--------------------------------------------------------------------|
-
+j
 
 
 
