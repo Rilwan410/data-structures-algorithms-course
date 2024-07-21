@@ -27,3 +27,20 @@ Linked Lists VS. Arrays:
 
 
 Popping: Removing a node from the end of the Linked List!
+
+
+
+Big O of Singly Linked List:
+-----------------------------
+. Insertion - O(1)
+. Removal - it depends... O(1) or O(N)
+. Searching - O(N)
+. Access - O(N)
+
+
+Recap:
+    - Singly Linked Lists are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required
+
+    - Arrays contained a built-in index whereas Linked List do not
+
+    - The idea of a list data structure that consists of nodes is the foundation for other data structures like Stacks and Queues 
