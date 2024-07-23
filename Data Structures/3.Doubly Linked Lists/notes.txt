@@ -1,0 +1,43 @@
+Doubly Linked List
+
+
+    Objectives 
+        - Construct a Doubly Linked List
+        - Compare and contrast Doubly Linked List and Singly Linked List
+        - Implement basic operations on a Doubly Linked List
+
+    - Doubly Linked List are almost identical to Singly Linked Lists, except every node has another pointer, to the previous node!
+
+
+
+Head                     Length = 4                       Tail
+|----------------------------------------------------------|
+|                                                          |
+|                                                          |
+|           next         next         next         next    |
+null <=== 4 ===>  <=== 6 ===>  <=== 8 ===>  <=== 2 ===>   null
+      prev         prev         prev         prev 
+
+
+
+    Singly Linked List VS. Doubly Linked List:
+
+        - The tradeoff between a doubly linked list and singly linked list is that a doubly linked list has more flexibility but take up more memory
+
+        - A Singly Linked List is one-directional it can only point forward to the next node, whereas a Doubly Linked List is two-directional; it points to the next node and the previous node.
+
+
+
+Big O of Doubly Linked Lists
+-----------------------------
+. Insertion - O(1)
+. Removal   - O(1)
+. Searching - O(N)
+. Access    - O(N) 
+(Technically searching is O(N/2) but that's still O(N))
+
+
+Recap 
+    - Doubly Linked Lists are almost identical to Singly Linked Lists, except there is an additional pointer to the previous nodes
+    - Better than Singly Linked Lists for finding nodes and can be done in half the time!
+    - However, they do take up more memory considering the extra pointer
