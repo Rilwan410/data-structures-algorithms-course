@@ -1,0 +1,48 @@
+Stacks 
+
+    What is a Stack?
+        - A LIFO (Last In First Out) data structure!
+
+        - The last element added to the stack will be the first element removed from the stack
+
+        - Think about a stack of plates, or a stack markers, or a stack of... anything. As you piled it up the last thing (or the topmost thing) is what gets removed first
+
+    How we'll visualize a stack :
+
+-------------------------------------------
+                Size = 4
+       Last                     First
+        <== 10 <== 2 <== 22 <== 7
+-------------------------------------------
+
+
+    Where Stacks are used:
+        - Managing function invocations
+        - Undo / Redo
+        - Routing (the history object is treated like a stack!)
+
+    There is more than one way to implement a Stack:
+        - A stack is an abstract data structure
+            You can use an array as a form of a stack so long as you:
+                . add/remove data by pushing/popping
+                . add/remove data by shifting/unshifting
+                    - adding/removing data by shifting and unshifting can become expensive as the data scales up, because every time you add to the top of the list, every other element in the arrays how to be reindexed
+
+        - So long as a data structure satisfies the rules of a stack, it can essentially be called and considered a stack.
+
+
+    Big O of Stacks
+    --------------------------
+    Insertion - O(1)
+    Removal   - O(1)
+    Searching - O(N)
+    Access    - O(N)
+
+
+
+    Recap
+        > Stacks are a LIFO data structure where the last value in is always the first one out.
+        
+        > Stacks are used to handle function invocations(the call stack), for operations like undo/redo, and for routing (remember pages you have previously visited and go back/forward) and much more!
+
+        > They are not a built-in data structure in JavaScript, but are relatively simple to implement.
