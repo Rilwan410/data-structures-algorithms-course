@@ -1,0 +1,4 @@
+Binary Trees
+
+    - With binary trees, each node can at most have two children
+    

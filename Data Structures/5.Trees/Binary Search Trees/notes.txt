@@ -1,0 +1,15 @@
+Binary Search Trees 
+
+    - Binary Search Trees are a special case of a Binary Tree
+
+    - Each node can only have 2 children at most
+
+    - Binary Search Trees are used to store data that can compared. That is sortable.
+        . Numbers
+        . Strings
+
+    - With Binary Search Trees any node that is less than the parent node is set to the left of the parent node and any node that is greater than the parent node is set to the right of the parent node. And the same goes with the child nodes.
+
+    - That's what makes a Binary Search Tree different from a regular Binary Tree: It is organized in a specific pattern such that every node that is less than the parent node is set to the left and every node that is greater than the parent node is set to the right
+
+    - With Binary Search Trees, It is a STRICT rule that nodes less than the parent go to the left and nodes greater than the parent go to the left. Or else it is not a valid BST.

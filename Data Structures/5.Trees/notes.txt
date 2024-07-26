@@ -1,0 +1,30 @@
+Trees
+
+    What Is A Tree?
+        - A data structure that consists of nodes in a parent/child relationship
+        - List & Trees
+            . Lists - linear
+            . Trees - non-linear
+
+    Tree Terminology:
+        > Root: Top node in a tree
+
+        > Child: A node directly connected to another node when moving away from the Root
+
+        > Parent: the converse notion of a child
+        Siblings: A group of nodes with the same parent
+        
+        > Leaf: A node with no children
+
+        > Edge: The connection between one node and another
+
+
+
+    Uses For Trees:
+
+        Examples of Trees:
+            - HTML DOM
+            - Network Routing
+            - Abstract Syntax Trees
+            - Artificial Intelligence
+            - Computer File System
