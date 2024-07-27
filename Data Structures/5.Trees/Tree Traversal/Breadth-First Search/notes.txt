@@ -1,0 +1,4 @@
+Breadth-First Search
+
+
+    Breadth-First Search basically means that when traversing a tree, you want to visit every single node on the same level (sibling node) before looking at a child node

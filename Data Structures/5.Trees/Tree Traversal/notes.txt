@@ -1,0 +1,10 @@
+Tree Traversal
+
+    - There are two main ways to traverse a tree and visit every single node at least once:
+        - Breadth-first Search
+        - Depth-first Search
+
+
+    Bread-First Search VS. Depth-First Search 
+
+

@@ -1,0 +1,4 @@
+Depth-First Searches Use cases
+    - DFS (In Order): When you want to traverse a tree and collect the values in a sorted list.
+    - DFS (Post Order): 
+    - DFS (Pre Order): Can be used to "export" a tree structure so that it is easily reconstructed or copied. Useful if you are trying to clone or duplicate a tree by inserting the values in the order of the array.

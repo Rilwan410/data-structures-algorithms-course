@@ -1,0 +1,2 @@
+DFS Pre Order
+    - DFS Pre Order involves traversing the left side of a tree first then traversing the right afterwards

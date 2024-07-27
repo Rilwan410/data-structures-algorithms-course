@@ -28,3 +28,7 @@ Trees
             - Abstract Syntax Trees
             - Artificial Intelligence
             - Computer File System
+
+
+    Tree Traversal:
+        - You can search through Trees using Breadth-First Search or Depth-First Search
