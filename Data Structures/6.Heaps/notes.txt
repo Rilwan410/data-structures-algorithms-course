@@ -1,0 +1,2 @@
+Heaps
+    - Heaps are another category of trees, so everything that applies to trees in general applies to heaps as well, but there are some additional special considerations or rules for heaps.

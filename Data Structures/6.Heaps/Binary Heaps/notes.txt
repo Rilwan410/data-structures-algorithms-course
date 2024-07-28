@@ -1,0 +1,53 @@
+BINARY HEAPS:
+
+WHAT IS A BINARY HEAP?
+
+    A Binary Heap is very similar to a Binary Search Tree, but with some different rules!
+
+        Max Binary Heaps
+            - In a Max Binary Heap, parents nodes are always larger than child nodes. It doesn't matter if we're talking about the right child or the left child, the parents node is always larger than the child every level down the tree, a simpler way of saying it is -- all parents are smaller than the children.
+
+            - In a Max Binary Heap the parent is greater than the children, but there are no guarantees between the sibling nodes.
+
+            - A binary heap is as compact as possible. All the children of each node are as full as they can be and left children are filled out first
+            
+        Min Binary Heaps
+            - In a Min Binary Heap, parent nodes are always smaller than child nodes. Essentially the opposite of a MaxBinaryHeap. The Parent node will always be smaller than the child nodes, no matter if the child is on the left or right
+
+
+WHY DO YOU NEED TO KNOW THIS?
+
+    - Binary Heaps are used to implement Priority Queues, which are very commonly used data structures
+
+    - They are also used quite a bit, with graph traversal algorithms
+
+
+STORING BINARY HEAPS:
+    > When storing binary heaps in an array, a rule of thumb is:
+        For any index of an array n:
+        The left Child is stored at 2n + 1
+        The right child is at 2n + 2
+
+    > Formula To Find Child Node In binary heap array: 
+        left Index: 2n + 1
+        right Index: 2n + 2
+    
+    > Formula To Find Parent Node In binary heap array: 
+        For any child node at index n:
+        Its parents are at index (n-1)/ 2 (floored)
+
+
+
+Big O Of Binary Heaps
+--------------------------
+    Insertion -  O(log N)
+    Removal   -  O(log N)
+    Search    -  O(N)
+
+
+
+
+RECAP:
+    - Binary Heaps are very useful data structures for sorting, implementing other data structures like priority queues
+    
+    - Binary Heaps are either Max Binary Heaps or Min Binary Heaps with parents either being smaller or larger than their children

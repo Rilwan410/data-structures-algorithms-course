@@ -1,0 +1,13 @@
+Priority Queue
+
+    What is a Priority Queue?
+        - A Priority Queue is a data structure where each element has a priority. Elements with higher priorities are served before elements with lower priorities
+
+    There are different ways of creating a priority Queue
+        Arrays
+            - You can use and array to create a priority queue. You would have to iterate over the entire array and find the highest item with the highest priority
+
+        Heap
+            - It makes more sense to use a heap for a priority queue since a heap is structured so that the highest number or value will be at the top. Heaps have better time complexity than array as well.
+
+            - Heaps and priority queues frequently get conflated with each other because they are so commonly used in tandem, but a priority queue is just a an abstract concept, and can be implemented in different ways.
