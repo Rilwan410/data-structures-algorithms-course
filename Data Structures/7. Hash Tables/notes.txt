@@ -20,3 +20,34 @@ Hash Tables
         Ruby: Hashes
 
         ** JavaScript objects  has some restrictions, but are basically hash tables
+
+
+    Prime Numbers with hash functions 
+        - The prime number in the hash is helpful in spreading out the keys more uniformly
+
+        - It's also helpful if the array that you're putting values into has a prime length
+
+        - You don't need to know why. (Math is complicated) but there are many resources that explain why 
+
+    
+    
+    Dealing With Collisions
+
+        - Even with a large array and a great hash function, collisions are inevitable
+
+        - There are many strategies for dealing with collisions, but we'll focus on two:
+
+            - Separate Chaining
+                . With Separate Chaining, at each index in our array we store values using a more sophisticated data structure (e.g. an array or linked list)
+                . This allows us to store multiple key-value pairs at the same index.
+
+            - Linear Probing
+                . With Linear Probing, when we find a collision, we search through the array to find the next empty slot.
+                . Unlike with separate chaining, this allows us to store a single key-value at each index
+
+
+    Hash Table Big O Complexity
+    -------------------------------
+    Insert   -  O(1)
+    Deletion -  O(1)
+    Access   -  O(1)
