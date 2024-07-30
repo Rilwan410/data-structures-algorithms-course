@@ -1,0 +1,22 @@
+Hash Tables
+
+    What Is A Hash Table?
+        - Hash Tables are used to store key-value pairs
+        - They are like arrays , but the keys are not ordered
+        - Unlike arrays, Hash Tables are fast for all of the following operations:
+            - Finding values
+            - Adding new values
+            - Removing values
+
+    Why Should You Care?
+        - Nearly every programming language has some sort of hash table data structure
+        - Because of their speed, hash tables are very commonly used 
+
+
+    Hash Tables used in programming languages
+        Python: Dictionaries
+        JavaScript: Objects, Maps 
+        Java, Go, Scala: Maps
+        Ruby: Hashes
+
+        ** JavaScript objects  has some restrictions, but are basically hash tables
