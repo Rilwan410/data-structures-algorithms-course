@@ -1,0 +1,13 @@
+Dijkstra's Algorithm
+
+    What is it?
+        - Dijkstra's Algorithm (short for Dijkstra's Shortest Path Algorithm) is one of the most famous and widely used algorithms around.
+
+        - Dijkstra's Algorithm finds the shortest path between two vertices on a graph
+
+    Why Is It Useful?
+        . GPS - Finding fastest route
+        . Network Routing - Find open shortest path for data
+        . Biology - Used to model the spread of viruses among humans'
+        . Airline Tickets - Finding cheapest route to your destination
+        . etc.
