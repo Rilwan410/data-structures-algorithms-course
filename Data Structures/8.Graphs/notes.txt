@@ -1,0 +1,38 @@
+Graphs
+
+
+    What Are Graphs?
+        - A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. AKA a graph is a collection of nodes and connections between those nodes.
+
+    Uses For Graphs 
+        - Social Networking
+        - Location / Mapping
+        - Routing Algorithms
+        - Visual Hierarchy
+        - File System Optimizations
+        - Recommendations
+            . "People also watched"
+            . "You might also like..."
+            . "People you might know"
+            . "Frequently bought with"
+        - And more 
+
+
+
+
+    Essential Graph Terminology
+        - Vertex: A Node
+        - Edge: Connection between nodes
+        - Weight / Unweighted: values assigned to distances between vertices
+            . Weighted Graph- Vertices have no value associated to them
+            . Unweighted Graph- Vertices have values associated to them
+        - Directed / Undirected: directions assigned to distanced between vertices
+            . Undirected Graph - No direction associated with an edge
+            . Directed Graph - Direction assigned to an edge
+
+
+
+    Types Of Graphs
+
+        Adjacency List 
+            - With an adjacency list, we would store all the  edge connections for a given node or vertex. So if you wanted to know what edges or connections were between a vertex and another vertex, you would go to that index and theres a list that would contain all of the connections 

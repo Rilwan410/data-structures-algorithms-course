@@ -1,0 +1,14 @@
+Graph Traversal
+
+    - When we say traversing a graph, it really, at a basic level, just means visiting, updating, checking each vertex in a graph
+    -
+
+    Why Should You Care?
+        Graph Traversal Uses:
+            . Peer to peer Networking
+            . Web crawlers
+            . Finding "closest" matches/recommendations
+            . Shortest path problems
+                - GPS Navigation
+                - Solving Mazes
+                - AI (Shortest path to win the game)

@@ -1,0 +1,4 @@
+Depth First 
+
+    Depth First - Explore as far as possible down one branch before "backtracking"
+    
